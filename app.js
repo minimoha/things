@@ -6,7 +6,7 @@ const stuffRoutes   = require('./routes/stuff');
 const userRoutes    = require('./routes/user');
 const path          = require("path");
 
-mongoose.connect("mongodb+srv://apetugideon:yWS7JXzsFPwQLSvO@cluster0-v44vn.mongodb.net/test?retryWrites=true&w=majority")
+mongoose.connect("apikey")
 .then(() => {
     console.log("Connection succeful, to mongoDb Atlas");
 })
